@@ -61,19 +61,23 @@
 
     <div class="form-popup" id="myForm">
         <form action="" class="form-container">
-            <h1>Login</h1>
+            <h1>Message Form</h1>
       
             <label for="Name"><b>Name:</b></label>
-            <input type="text" placeholder="Enter Name">
+            <input type="text" placeholder="Enter Name" minlength="5">
+            <p class="name_requirements">Minimum of 5 characters*</p>
       
             <label for="Email"><b>Email:</b></label>
-            <input type="text" placeholder="Enter Email">
+            <input type="text" placeholder="Enter Email" maxlength="255">
+            <p class="email_requirements">Maximum of 255 Characters*</p>
       
             <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-            
-            <label for="t&c">I Agree to the Terms and Conditions</label>
-            <input type="radio" class="tac">
+            <textarea id="msg" name="user_message" minlength="5" maxlength="500"></textarea>
+            <p class="message_requirements">Between 5 and 500 Characters*</p>
+
+            <label class="terms_text" for="t&c">I Agree to the Terms and Conditions</label>
+            <input type="checkbox" class="tac" required>
+            <p class="checkbox_requirements">Checkbox Must be Checked*</p>
 
             <button type="submit" class="btn">Submit</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>

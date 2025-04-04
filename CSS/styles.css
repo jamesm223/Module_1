@@ -4,10 +4,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #6d6d6d;
+
   }
   
   li {
     float: left;
+    
   }
   
   li a {
@@ -16,6 +18,10 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 50px;
+    border: 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
   li a:hover:not(.active) {
@@ -25,6 +31,7 @@ ul {
   .active {
     background-color: #9cd2dc;
     color: #111;
+    border: 5px black;
   }
 
 .footer{
@@ -175,14 +182,14 @@ button{
 }
 
   .form-popup {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 9;
   }
   
   .form-container {
-    max-width: 1000px;
+    width: 40%;
     padding: 10px;
     background-color: white;
   }
@@ -190,7 +197,7 @@ button{
   .form-container input[type=text], .form-container input[type=textarea] {
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    margin: 5px 0 5px 0;
     border: none;
     background: #f1f1f1;
   }
@@ -203,7 +210,7 @@ button{
 textarea{
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    margin: 5px 0 10px 0;
     border: none;
     background: #f1f1f1;
 }
@@ -241,7 +248,27 @@ textarea:focus{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
-aa
+
 .tac input:checked ~ .checkmark {
     background-color: #9cd2dc;
   }
+
+.name_requirements{
+    font-style: italic;
+    opacity: 50%;
+}
+
+.email_requirements{
+    font-style: italic;
+    opacity: 50%;
+}
+
+.message_requirements{
+    font-style: italic;
+    opacity: 50%;
+}
+
+.checkbox_requirements{
+    font-style: italic;
+    opacity: 50%;
+}
