@@ -1,8 +1,159 @@
-.header{
-    font-size: 50px;
-    font: Calibri;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6d6d6d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #9cd2dc;
+    color: #111;
+  }
 
 .footer{
-    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.top_text{
+    background-color: #9cd2dc;
+    border-radius: 10px;
+    padding: 80px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+
+}
+
+.header1{
+    font-size: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.textbox1{
+    font-size: 40px;
+    margin-left: 10px;
+    font: Georgia;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;  
+  
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.text_1, .text_2, .text_3{
+    width: 10%;
+    height: 25em;
+    padding: 10px 30px;
+}
+
+.header{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.textbox{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.header2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang_text{
+    margin-top: 80px;
+}
+
+table, th, td{
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #9cd2dc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    
+}
+
+@media(max-width:1800px){
+    .container{
+        height: 100%;
+        flex-direction: column;
+    }
+    .text_1, .text_2, .text_3{
+        max-width: 80%;
+        padding: 30px;
+    }
+}
+
+.search_container{
+    width: 20% ;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
