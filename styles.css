@@ -1,5 +1,8 @@
-header {
-    color: black;
-    margin: 100px;
-    font-size: 48px;
+.header{
+    font-size: 50px;
+    font: Calibri;
+}
+
+.footer{
+    font-size: 40px;
 }
