@@ -112,7 +112,7 @@ ul {
 }
 
 table, th, td{
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
     font-family: Arial, Helvetica, sans-serif;
@@ -135,6 +135,8 @@ button{
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     
 }
 
@@ -149,5 +151,27 @@ button{
     }
 }
 
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
 
 
