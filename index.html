@@ -61,19 +61,19 @@
 
     <div class="form-popup" id="myForm">
         <form action="/action_page.php" class="form-container">
-            <h1>Login</h1>
+            <h1>Contact form</h1>
       
             <label for="Name"><b>Name:</b></label>
-            <input type="text" placeholder="Enter Name">
+            <input type="text" placeholder="Enter Name" required>
       
             <label for="Email"><b>Email:</b></label>
-            <input type="text" placeholder="Enter Email">
+            <input type="text" placeholder="Enter Email" required>
       
             <label for="msg">Message:</label>
             <textarea id="msg" name="user_message"></textarea>
             
             <label for="t&c">I Agree to the Terms and Conditions</label>
-            <input type="radio" class="tac">
+            <input type="radio" class="tac" required>
 
             <button type="submit" class="btn">Submit</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
